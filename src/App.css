@@ -1,0 +1,125 @@
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.mainHeader {
+  background-color: gray;
+  width: 100%;
+  height: 70px;
+}
+.mainHeader .userInfo {
+  float: right;
+  margin-right: 1%;
+}
+.mainHeader .userInfo img {
+  margin: auto;
+  border-radius: 50%;
+  width: 50px;
+}
+.mainHeader .userInfo .userName {
+  font-size: 15px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.login .login-box {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  float: center;
+  margin: auto;
+  padding: 50px;
+  margin-top: 70px;
+}
+.login .MuiFormControl-root {
+  width: 100%;
+  height: 80px;
+}
+.login input {
+  width: 90%;
+  height: 50px;
+  padding: auto;
+  margin: 10px;
+  font-size: 20px;
+}
+.login button {
+  background-color: green;
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.main {
+  float: right;
+  width: 100%;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  #mainContent {
+    width: "100%";
+  }
+
+  #mySidenav {
+    width: "0%";
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

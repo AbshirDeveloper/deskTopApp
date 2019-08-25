@@ -1,0 +1,21 @@
+@import './form.scss';
+@import './grid.scss';
+@import './navigation.scss';
+@import './header.scss';
+@import './login.scss';
+
+.main {
+    float: right;
+    width: 100%;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    #mainContent {
+        width: '100%';
+    }
+
+    #mySidenav {
+        width: '0%'
+    }
+  }
