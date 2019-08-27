@@ -9,12 +9,18 @@
             margin: auto;
             border-radius: 50%;
             width: 50px;
+            margin-top: 10%;
         };
         .userName {
             font-size: 15px;
             color: white;
             display: block;
             text-align: center;
-        }
+        };
     }
+}
+.userDropDown {
+    height: 200px;
+    transition: 0.5s;
+    border: lightsalmon;
 }

@@ -11,19 +11,17 @@ class Root extends Component {
         }
     }
     openNav = () => {
-        document.getElementById("mySidenav").style.width = "15%";
-        document.getElementById("mainContent").style.width = "80%";
+        document.getElementById("mySidenav").style.width = "200px";
     }
     closeNav = () => {
         document.getElementById("mySidenav").style.width = "0%";
-        document.getElementById("mainContent").style.width = "100%";
     }
     render() {
         return (
-            <div>
+            <div className="main">
                 <Header open={this.openNav} />
                 <Navigation close={this.closeNav} />
-                <div id="mainContent" className="main">
+                <div id="mainContent" className="mainContent">
                     <MainContent />
                 </div>
             </div>

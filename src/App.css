@@ -27,6 +27,7 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  opacity: 0.5;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -69,12 +70,19 @@ body {
   margin: auto;
   border-radius: 50%;
   width: 50px;
+  margin-top: 10%;
 }
 .mainHeader .userInfo .userName {
   font-size: 15px;
   color: white;
   display: block;
   text-align: center;
+}
+
+.userDropDown {
+  height: 200px;
+  transition: 0.5s;
+  border: lightsalmon;
 }
 
 .login .login-box {
@@ -107,19 +115,14 @@ body {
 }
 
 .main {
+  width: 100%;
+}
+
+.mainContent {
   float: right;
   width: 100%;
   transition: 0.5s;
-}
-
-@media only screen and (max-width: 600px) {
-  #mainContent {
-    width: "100%";
-  }
-
-  #mySidenav {
-    width: "0%";
-  }
+  z-index: 1;
 }
 
 /*# sourceMappingURL=App.css.map */
